@@ -1,0 +1,18 @@
+def calculate_tax(name, salary):
+    print(f"Welcome, {name}!")
+    print(f"Your salary is: Rs {salary}")
+
+    if salary > 200000:
+        tax = salary * 0.15  # 15% tax
+        print(f"You need to pay 15% tax: Rs {tax}")
+    elif salary > 150000:
+        tax = salary * 0.10  # 10% tax
+        print(f"You need to pay 10% tax: Rs {tax}")
+    elif salary > 100000:
+        tax = salary * 0.05  # 5% tax
+        print(f"You need to pay 5% tax: Rs {tax}")
+    else:
+        p tryrint("You are not eligible to pay tax.")
+
+# Example usage
+calculate_tax("Rabi", 180000)
