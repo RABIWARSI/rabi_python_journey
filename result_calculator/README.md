@@ -24,4 +24,4 @@ A beginner-friendly Python script that calculates the **total marks**, **percent
 ---
 
 
-created by: Rabi_Warsi
+Created by: Rabi_Warsi
